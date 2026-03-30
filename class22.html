@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .abc{
+            background-color: blue;
+            height: 40vh;
+            width: 20%;
+            font-size: 50px;
+        }
+        .abc:hover{
+            width: 80%;
+            background-color: green ;
+            transition: width 5s,height 5s,background-color 5s,background-color 5s;
+        }
+        
+        .btn:active{
+            background-color: red;
+            transition: background-color 2s;
+        }
+        .nta:focus{
+            color: rgb(246, 5, 166);
+            background-color: aqua;
+            transition:  background-color 5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="abc"> expert</div>
+
+    <input type="text" placeholder="full name" class="nta">
+    <input type="submit" class="btn">
+
+</body>
+</html>
